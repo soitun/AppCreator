@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>App Creator</title>
+	
+	<!-- Librerías -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	
+	<!-- js -->
+	<script src="js/dragAndDrop.js"></script>
+	
+	<!-- CSS -->
+	<style>
+	  	ul { 
+	  		list-style-type: none; 
+	  		margin: 0; 
+	  		padding: 0; 
+	  		margin-bottom: 10px; 
+	  	}
+  		li { 
+  			margin: 5px; 
+  			padding: 5px; 
+  			width: 150px; 
+  		}
+  	</style>
+	
+	<!-- Scripts -->
+
+</head>
+<body>
+	<h1>Hola Mundo!</h1>
+	
+	<ul>
+		<li id="draggable1" class="ui-state-default">Hola</li>
+		<li id="draggable2" class="ui-state-default"><button>ASDF</button></li>
+		<li id="draggable3" class="ui-state-default"><input type="text" size="4"></li>
+		<li id="draggable4" class="ui-state-default"><img src="img/aaa.jpg"></li>
+	</ul>
+	
+	<ul id="sortable" class="connectedSortable">
+		<li class="ui-state-highlight">1</li>
+		<li class="ui-state-highlight">2</li>
+		<li class="ui-state-highlight">3</li>
+		<li class="ui-state-highlight">4</li>
+	</ul>
+	
+	<div id="trash" style="width:15%; height: 15%; background-color: #f00; margin-top: 100px;"></div>
+</body>
+</html>
